@@ -1,0 +1,15 @@
+{
+  "name": "Node.js Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/node:18",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint" // Opcional: extensión para linting
+      ]
+    }
+  }
+    }
